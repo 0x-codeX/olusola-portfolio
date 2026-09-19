@@ -1,70 +1,45 @@
-# Getting Started with Create React App
+# Olusola Jaiyeola | Full-Stack & Web3 Developer Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the source code for my personal developer portfolio. This repository houses the frontend architecture of my portfolio website, built to showcase my technical journey, projects, and security research across both traditional Web2 and decentralized Web3 ecosystems.
 
-## Available Scripts
+## About My Work
 
-In the project directory, you can run:
+I am a Full-Stack Software Engineer specializing in the MERN stack (MongoDB, Express.js, React, Node.js) and Web3 development. My work bridges the gap between scalable frontend interfaces, robust backend APIs, and secure, decentralized smart contracts. 
 
-### `npm start`
+Feel free to browse through my pinned repositories and general GitHub profile to explore the full spectrum of my work. 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Technical Expertise
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+*   **Frontend & Web2:** React.js, Tailwind CSS, Vite, JavaScript (ES6+)
+*   **Backend:** Express.js, Node.js, MongoDB, API Development
+*   **Web3 & Blockchain:** Solidity, Ethers.js, Smart Contract Development, Web3 Authentication, Crypto Payment Integrations
+*   **Security:** Smart Contract Auditing, Invariant Testing, Vulnerability PoC Development (Foundry framework)
 
-### `npm test`
+## 🌟 Featured Project: Project Osborne
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+If you are looking for a comprehensive example of how I integrate Web2 architecture with Web3 mechanics, check out **Project Osborne**. 
 
-### `npm run build`
+Project Osborne demonstrates a seamless convergence of traditional backend logic (Express.js) and modern frontend design (React) with on-chain functionality (Solidity). It stands as a prime showcase of handling decentralized user interactions, crypto integrations, and full-stack data flow without compromising on user experience or security.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Explore My Repositories
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+My GitHub profile serves as an open ledger of my development and security work. As you browse my other repositories, you will find:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1.  **Full-Stack Applications:** Complete Web2 projects demonstrating database management, responsive UI/UX, and robust API routing using React and Express.js.
+2.  **Decentralized Applications (dApps):** Web3 platforms featuring wallet integrations, token interactions, and decentralized state management.
+3.  **Smart Contract Security Audits:** A collection of security reviews, vulnerability assessments, and Proof-of-Concept (PoC) code developed during my time competing on platforms like Code4rena and Sherlock. These repos highlight my ability to write invariant tests and secure EVM protocols.
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Running This Portfolio Locally
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). To run the portfolio environment on your local machine:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Prerequisites
+Ensure you have `Node.js` and `npm` installed.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Installation & Setup
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. Clone the repository:
+   ```bash
+   git clone <your-repo-url>
