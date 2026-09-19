@@ -6,7 +6,7 @@ function Footer() {
   return (
     <footer className="footer--container">
       <div className="footer--link--container">
-        <div className="navbar--logo">
+        <div className="navbar--logo footer--logo">
           <img
             src={
               logoImg

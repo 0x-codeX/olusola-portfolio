@@ -1055,3 +1055,30 @@ h3 {
     pointer-events: auto;
   }
 }
+
+/* Default Desktop View: Scale it up as requested */
+.footer--logo img {
+  transform: scale(2.5);
+  transform-origin: left center;
+  transition: transform 0.3s ease;
+  /* Smooth resizing */
+}
+
+/* Mobile View: Shrink it back down and add breathing room */
+@media screen and (max-width: 768px) {
+  .footer--logo img {
+    transform: scale(2.0);
+    /* Smaller scale for mobile */
+    transform-origin: center;
+    /* Center it if the layout stacks */
+    margin-bottom: 20px;
+    /* Push the links down to prevent crunching */
+  }
+}
+
+/* Very Small Mobile View: Baseline adjustment*/
+@media screen and (max-width: 480px) {
+  .footer--logo img {
+    transform: scale(1.2);
+  }
+}
