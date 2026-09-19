@@ -2,78 +2,83 @@
   "skills": [
     {
       "id": "1",
-      "src": "./img/product-chain-1.png",
-      "title": "Front-End",
-      "description": "I possess a proficient command over a diverse array of tools essential for creating captivating and dynamic Front-End websites. My expertise spans ReactJS, HTML5, CSS3, Redux, Bootstrap, TailwindCSS, among others."
+      "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
+      "title": "MongoDB",
+      "description": "Designing flexible, high-performance NoSQL database schemas, indexing strategies, and aggregation pipelines."
     },
     {
       "id": "2",
-      "src": "./img/tag-1.png",
-      "title": "Back-End",
-      "description": "In managing the backend or server side of websites, I employ tools such as NodeJS, ExpressJS, Restful APIs, and utilize fetch to ensure seamless functionality and smooth operation of the website."
+      "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
+      "title": "Express.js",
+      "description": "Building fast, lightweight RESTful backend APIs, custom middleware, and secure routing architectures."
     },
     {
       "id": "3",
-      "src": "./img/feather-pen-2.png",
-      "title": "Database",
-      "description": "As a MERN Stack developer, I primarily utilize MongoDB for storing website data. Nonetheless, I have hands-on experience with Firebase and am progressively gaining proficiency in SQL databases like Postgres."
+      "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+      "title": "React.js",
+      "description": "Crafting responsive, component-driven user interfaces with state management, custom hooks, and modern UI libraries."
+    },
+    {
+      "id": "4",
+      "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
+      "title": "Node.js",
+      "description": "Developing scalable, asynchronous server-side applications, microservices, and web sockets."
+    },
+    {
+      "id": "5",
+      "src": "/img/EthersJs.png",
+      "title": "Ethers.js & Web3",
+      "description": "Connecting Web2 applications to Web3 networks, handling wallet provider connections, and event listeners."
+    },
+    {
+      "id": "6",
+      "src": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/solidity/solidity-original.svg",
+      "title": "Solidity & Security",
+      "description": "Writing smart contracts, conducting security reviews, invariant fuzzing, and vulnerability testing."
     }
   ],
-
   "portfolio": [
     {
       "id": "1",
-      "src": "./img/natureestate.png",
-      "title": "Real Estate Website",
-      "titlelink": "https://natureestates.onrender.com/",
-      "description": "The full-stack real estate website was constructed using React and Tailwind for the frontend, and for the backend, NodeJS, ExpressJS, JWT, Firebase, among others, were employed, with MongoDB serving as the data storage solution",
-      "link": "https://github.com/codexNature/NatureEstate"
+      "src": "/img/NippyPlatform.png",
+      "title": "Nippy Content Platform",
+      "description": "Digital content platform with authentication flows, Web3 Login and payment integration, and custom backend routes, and automated payment verification controllers.",
+      "link": "https://project-osborne-client.vercel.app/",
+      "titlelink": "https://github.com/codexNature",
+      "tags": [
+        "React",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "Smart Contract",
+        "EthersJS"
+      ]
     },
     {
       "id": "2",
-      "src": "./img/Ecommerce.png",
-      "title": "Ecommerce Website",
-      "titlelink":"https://codexnature.github.io/E-Commerce/",
-      "description": "Here's a glimpse of the frontend for a straightforward eCommerce website built using ReactJS, Redux for state management, and CSS3 for styling purposes.",
-      "link": "https://github.com/codexNature/E-Commerce"
+      "src": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=800&q=80",
+      "title": "Nature Estates",
+      "description": "Commuter routing software featuring driver pricing models, scheduled ride mechanisms, and user experience flows.",
+      "link": "https://github.com/0x-codeX/NatureEstate",
+      "titlelink": "https://github.com/0x-codeX/NatureEstate",
+      "tags": [
+        "React Native",
+        "Node.js",
+        "REST API"
+      ]
     },
     {
       "id": "3",
-      "src": "./img/tindog.png",
-      "title": "Static Website",
-      "titlelink":"https://codexnature.github.io/tindog/",
-      "description": "The design of this website is truly striking, showcasing a remarkable build achieved solely with HTML5 and Bootstrap. Its aesthetic appeal and functionality speak volumes about the exclusive use of these tools.",
-      "link":"https://github.com/codexNature/tindog"
-    }
-  ],
-
-  "testimonial": [
-    {
-      "id": "1",
-      "count": "5",
-      "src": "./img/avatar-image.png",
-      "title": "Ahuse",
-      "description": "My name is Olusola Jaiyeola, I'm a Full Stack Developer. I build beautiful and responsive websiites with web applications using the latest technologies.",
-      "author_name": "Wally West",
-      "author_designation": "Starlabs"
-    },
-    {
-      "id": "2",
-      "count": "5",
-      "src": "./img/avatar-image-2.png",
-      "title": "Ahuse",
-      "description": "My name is Olusola Jaiyeola, I'm a Full Stack Developer. I build beautiful and responsive websiites with web applications using the latest technologies.",
-      "author_name": "Bruce Wayne",
-      "author_designation": "Wayne Ent"
-    },
-    {
-      "id": "3",
-      "count": "5",
-      "src": "./img/avatar-image-1.png",
-      "title": "Ahuse",
-      "description": "My name is Olusola Jaiyeola, I'm a Full Stack Developer. I build beautiful and responsive websiites with web applications using the latest technologies.",
-      "author_name": "Clark Kent",
-      "author_designation": "Daily Planet"
+      "src": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?auto=format&fit=crop&w=800&q=80",
+      "title": "Smart Contract Audit Suite",
+      "description": "Automated security checks, static analysis scripts using Slither, and invariant testing for EVM protocols.",
+      "link": "https://github.com/codexNature",
+      "titlelink": "https://github.com/codexNature",
+      "tags": [
+        "Solidity",
+        "Ethers.js",
+        "Ethereum"
+      ]
     }
   ]
 }

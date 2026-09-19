@@ -1,105 +1,175 @@
-import { useState, useEffect } from "react";
-import {Link} from "react-scroll";
+import {
+  useState,
+  useEffect,
+} from "react";
+import { Link } from "react-scroll";
 
 function Navbar() {
-  const [navActive, setNavActive] = useState(false);
+  const [
+    navActive,
+    setNavActive,
+  ] =
+    useState(
+      false,
+    );
 
-  const toggleNav = () => {
-    setNavActive(!navActive) 
-  }//this function opens our nav
+  const toggleNav =
+    () => {
+      setNavActive(
+        !navActive,
+      );
+    };
 
-  const closeMenu = () => {
-    setNavActive(false)
-  } //this function closes our nav
+  const closeMenu =
+    () => {
+      setNavActive(
+        false,
+      );
+    };
 
   useEffect(() => {
-    const handleResize = () => {
-      if (window.innerWidth <= 500) {
-        closeMenu;
-      }
-    }
+    const handleResize =
+      () => {
+        if (
+          window.innerWidth <=
+          500
+        ) {
+          closeMenu();
+        }
+      };
 
-    window.addEventListener("resize", handleResize)
+    window.addEventListener(
+      "resize",
+      handleResize,
+    );
 
     return () => {
-      window.removeEventListener("resize", handleResize);
-    }
+      window.removeEventListener(
+        "resize",
+        handleResize,
+      );
+    };
   }, []);
 
   useEffect(() => {
-    if(window.innerWidth <= 1200) {
-      closeMenu;
+    if (
+      window.innerWidth <=
+      1200
+    ) {
+      closeMenu();
     }
   }, []);
 
   return (
-    <nav className={`navbar ${navActive ? "active" : ""}`}>
-      <div className="navbar--logo">
-        <img src="./img/logo-no-background.svg" alt="Logo" />
+    <nav
+      className={`navbar ${navActive ? "active" : ""}`}
+    >
+      {/* 1. Left Counterweight: Logo */}
+      <div className="navbar--logo-container">
+        <div className="navbar--logo">
+          <img
+            src="./img/logo 1.png"
+            alt="Logo"
+          />
+        </div>
       </div>
-      <a
-        className={`nav__hamburger ${navActive ? "active" : ""}`}
-        onClick={toggleNav}
+
+      {/* 2. Center: Collapsible Navigation Links */}
+      <div
+        className={`navbar--items ${navActive ? "active" : ""}`}
       >
-        <span className="nav__hamburger__line"></span>
-        <span className="nav__hamburger__line"></span>
-        <span className="nav__hamburger__line"></span>
-      </a>
-      <div className={`navbar--items ${navActive ? "active" : ""}`}>
         <ul>
           <li>
             <Link
-              onClick={closeMenu}
+              onClick={
+                closeMenu
+              }
               activeClass="navbar--active-content"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
+              spy={
+                true
+              }
+              smooth={
+                true
+              }
+              offset={
+                -70
+              }
+              duration={
+                500
+              }
               to="heroSection"
               className="navbar--content"
             >
               Home
             </Link>
           </li>
-
           <li>
             <Link
-              onClick={closeMenu}
+              onClick={
+                closeMenu
+              }
               activeClass="navbar--active-content"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
+              spy={
+                true
+              }
+              smooth={
+                true
+              }
+              offset={
+                -70
+              }
+              duration={
+                500
+              }
               to="MyPortfolio"
               className="navbar--content"
             >
               Portfolio
             </Link>
           </li>
-
           <li>
             <Link
-              onClick={closeMenu}
+              onClick={
+                closeMenu
+              }
               activeClass="navbar--active-content"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
+              spy={
+                true
+              }
+              smooth={
+                true
+              }
+              offset={
+                -70
+              }
+              duration={
+                500
+              }
               to="AboutMe"
               className="navbar--content"
             >
-              About Me
+              About
+              Me
             </Link>
           </li>
-
           <li>
             <Link
-              onClick={closeMenu}
+              onClick={
+                closeMenu
+              }
               activeClass="navbar--active-content"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
+              spy={
+                true
+              }
+              smooth={
+                true
+              }
+              offset={
+                -70
+              }
+              duration={
+                500
+              }
               to="mySkills"
               className="navbar--content"
             >
@@ -108,19 +178,45 @@ function Navbar() {
           </li>
         </ul>
       </div>
-      <Link
-        onClick={closeMenu}
-        activeClass="navbar--active-content"
-        spy={true}
-        smooth={true}
-        offset={-70}
-        duration={500}
-        to="Contact"
-        className="btn btn-outline-primary"
-      >
-        Contact Me
-      </Link>
-    </nav> //classname for when navbar is active and not active this will allow for diff css properties depending on if active or not
+
+      {/* 3. Right Counterweight: Button & Hamburger (Button stays out of menu) */}
+      <div className="navbar--right-container">
+        <Link
+          onClick={
+            closeMenu
+          }
+          activeClass="navbar--active-content"
+          spy={
+            true
+          }
+          smooth={
+            true
+          }
+          offset={
+            -70
+          }
+          duration={
+            500
+          }
+          to="Contact"
+          className="btn btn-outline-primary"
+        >
+          Contact
+          Me
+        </Link>
+
+        <a
+          className={`nav__hamburger ${navActive ? "active" : ""}`}
+          onClick={
+            toggleNav
+          }
+        >
+          <span className="nav__hamburger__line"></span>
+          <span className="nav__hamburger__line"></span>
+          <span className="nav__hamburger__line"></span>
+        </a>
+      </div>
+    </nav>
   );
 }
 
