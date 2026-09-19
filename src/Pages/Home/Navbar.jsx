@@ -68,7 +68,7 @@ function Navbar() {
       <div className="navbar--logo-container">
         <div className="navbar--logo">
           <img
-            src="./img/logo 1.png"
+            src="./img/logo-1.png"
             alt="Logo"
           />
         </div>

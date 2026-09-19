@@ -7,7 +7,7 @@ function Footer() {
       <div className="footer--link--container">
         <div className="navbar--logo">
           <img
-            src="./img/logo 2.5.png"
+            src="./img/logo-2.5.png"
             alt="Logoipsum"
           />
         </div>
