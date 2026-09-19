@@ -3,7 +3,7 @@ import {
   useEffect,
 } from "react";
 import { Link } from "react-scroll";
-import logoImg from "../../img/logo-1.png";
+import logoImg from "../../img/Logo-1.png";
 
 function Navbar() {
   const [

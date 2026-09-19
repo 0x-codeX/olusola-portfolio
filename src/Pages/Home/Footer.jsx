@@ -1,6 +1,6 @@
 import { Link } from "react-scroll";
 import React from "react";
-import logoImg from "../../img/logo-2.5.png";
+import logoImg from "../../img/Logo-2.5.png";
 
 function Footer() {
   return (
