@@ -3,6 +3,7 @@ import {
   useEffect,
 } from "react";
 import { Link } from "react-scroll";
+import logoImg from "../../img/logo-1.png";
 
 function Navbar() {
   const [
@@ -68,7 +69,9 @@ function Navbar() {
       <div className="navbar--logo-container">
         <div className="navbar--logo">
           <img
-            src="./img/logo-1.png"
+            src={
+              logoImg
+            }
             alt="Logo"
           />
         </div>

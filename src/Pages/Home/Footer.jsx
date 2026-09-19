@@ -1,5 +1,6 @@
 import { Link } from "react-scroll";
 import React from "react";
+import logoImg from "../../img/logo-2.5.png";
 
 function Footer() {
   return (
@@ -7,8 +8,10 @@ function Footer() {
       <div className="footer--link--container">
         <div className="navbar--logo">
           <img
-            src="./img/logo-2.5.png"
-            alt="Logoipsum"
+            src={
+              logoImg
+            }
+            alt="Logo"
           />
         </div>
         <div className="footer--items">
